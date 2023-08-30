@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main(){
+    
+
+char nome, cidade, sexo;
+int idade;
+
+    system("color 0C");
+    printf("Qual é seu nome?");
+    scanf("%s", &nome);
+    
+    printf("Qual é sua cidade?");
+    scanf("%s", &cidade);
+    
+    printf("Qual é seu sexo?");
+    scanf("%s", &sexo);
+    
+    printf("Qual sua idade?");
+    scanf("%d", &idade);
+    
+    system ("pause");
+    
+}
